@@ -3,7 +3,7 @@
 An edge service for widgets delegates to a processing service (cluster) to do the work.
 Read-only requests use HTTP.  Commands and events use micro-messaging.
 
-![widgets-demo](file://widgets-demo.png)
+![widgets-demo](widgets-demo.png)
 
 ## Preequisites
 - Maven 3

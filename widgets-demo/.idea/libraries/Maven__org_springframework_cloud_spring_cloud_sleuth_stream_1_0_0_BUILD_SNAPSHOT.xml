@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-sleuth-stream:1.0.0.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-stream/1.0.0.BUILD-SNAPSHOT/spring-cloud-sleuth-stream-1.0.0.BUILD-20160318.122838-319.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-stream/1.0.0.BUILD-SNAPSHOT/spring-cloud-sleuth-stream-1.0.0.BUILD-20160318.122838-319-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-stream/1.0.0.BUILD-SNAPSHOT/spring-cloud-sleuth-stream-1.0.0.BUILD-20160318.122838-319-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

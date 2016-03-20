@@ -1,0 +1,15 @@
+---
+applications:
+- name: processing-service
+  memory: 512M
+  instances: 1
+  host: processing-service-${random-word}
+  domain: cfapps.io
+  path: target/processing-service.jar
+  services:
+    - config-service
+    - discovery-service
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    DEBUG: "true"
+    debug: "true"

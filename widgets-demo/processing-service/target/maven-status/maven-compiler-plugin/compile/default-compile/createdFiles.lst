@@ -1,0 +1,6 @@
+com\zuhlke\microservices\demo\DummyAR.class
+com\zuhlke\microservices\demo\Reservation.class
+com\zuhlke\microservices\demo\ReservationProcessor.class
+com\zuhlke\microservices\demo\ReservationRepository.class
+com\zuhlke\microservices\demo\MessageRestController.class
+com\zuhlke\microservices\demo\ProcessingServiceApplication.class

@@ -1,0 +1,13 @@
+---
+applications:
+- name: tracing-service
+  memory: 512M
+  instances: 1
+  host: tracing-service-${random-word}
+  domain: cfapps.io
+  path: target/tracing-service.jar
+  services:
+      - config-service
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    DEBUG: "true"

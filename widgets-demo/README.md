@@ -10,7 +10,7 @@ Read-only requests use HTTP.  Commands and events use micro-messaging.
 - Rabbit MQ running locally
 - config-service/src/main/resources/application.properties 
   for ease of use should be set to 
-  spring.cloud.config.server.git.uri=file://<PATH_TO_THIS_DEMO>/config-repo
+  spring.cloud.config.server.git.uri=file://`PATH_TO_THIS_DEMO`/config-repo
 
 ## Technologies
 ### Spring

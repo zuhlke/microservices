@@ -10,8 +10,8 @@
         <module>config-service</module>
         <module>discovery-service</module>
         <module>monitoring-service</module>
-        <module>persisting-service</module>
         <module>tracing-service</module>
+        <module>widget-db</module>
         <module>widget-processing</module>
         <module>widget-edge</module>
         <module>zipkin</module>

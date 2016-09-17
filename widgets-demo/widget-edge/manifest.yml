@@ -1,0 +1,14 @@
+---
+applications:
+- name: widget-edge
+  memory: 512M
+  instances: 1
+  host: widget-edge-${random-word}
+  domain: cfapps.io
+  path: target/widget-edge.jar
+  services:    
+    - config-service
+    - discovery-service
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    DEBUG: "true"

@@ -1,0 +1,14 @@
+---
+applications:
+- name: widget-processing
+  memory: 512M
+  instances: 1
+  host: widget-processing-${random-word}
+  domain: cfapps.io
+  path: target/widget-processing.jar
+  services:
+    - config-service
+    - discovery-service
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    DEBUG: "true"

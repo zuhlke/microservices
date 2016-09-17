@@ -1,4 +1,4 @@
-# Micro-services Demo
+# Widgets Demo
 Widgets, commands and events.
 An edge service for widgets delegates to a processing service (cluster) to do the work.
 Read-only requests use HTTP.  Commands and events use micro-messaging.

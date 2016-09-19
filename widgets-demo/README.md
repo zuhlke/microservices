@@ -1,7 +1,10 @@
 # Widgets Demo
-Widgets, commands and events.
-An edge service for widgets delegates to a processing service (cluster) to do the work.
+An edge service for widgets delegates to a processing service (cluster) which does all the work.
 Read-only requests use HTTP.  Commands and events use micro-messaging.
+
+This demo is about all the moving parts, the roles they play and how they all fit together.
+It's not a master class in how to write micro-services or promoting a specific approach such as event sourcing or CQRS.
+It is a basis from which you can start playing around and exploring your own ideas.
 
 ![widgets-demo](widgets-demo.png)
 
@@ -9,7 +12,7 @@ Read-only requests use HTTP.  Commands and events use micro-messaging.
 - Maven 3
 - Rabbit MQ running locally
 - config-service/src/main/resources/application.properties 
-  for ease of use should be set to 
+  For ease of use, this can be set to the absolute path (relative path does not work) of your local widgets config repo 
   spring.cloud.config.server.git.uri=file://`PATH_TO_THIS_DEMO`/config-repo
 
 ## Technologies

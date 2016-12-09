@@ -10,20 +10,18 @@ public class Widget {
     @GeneratedValue
     public Long id;
     public String name;
-    public String credits;
+    public int credits;
 
     public Widget() {}
 
     public Integer add(Integer amount) {
-        for (int i=0; i < amount; i++ ) {
-            credits += "*";
-        }
+        credits += amount;
         return amount;
     }
 
     public Integer subtract(Integer amount) {
-        if (amount <= credits.length()) {
-            credits = credits.substring(0,credits.length()-amount);
+        if (amount <= credits) {
+            credits -= amount;
         } else {
             amount = 0;
         }

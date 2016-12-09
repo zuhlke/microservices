@@ -33,8 +33,8 @@ public class ServiceApplication {
         return (Span s) -> (Math.random() < traceSamplerPercentage);
     }
 
-    @LoadBalanced
     @Bean
+    @LoadBalanced
     RestTemplate restTemplate() {
         return new RestTemplate();
     }

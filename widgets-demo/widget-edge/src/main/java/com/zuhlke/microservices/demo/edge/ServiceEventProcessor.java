@@ -11,7 +11,7 @@ class ServiceEventProcessor {
     private static Log logger = LogFactory.getLog(ServiceEventProcessor.class);
 
     @StreamListener(Processor.INPUT)
-    public void accept(WidgetTransactionEvent event) {
+    public void accept(Event event) {
         logger.info(event);
     }
 }

@@ -17,7 +17,7 @@ import org.springframework.integration.annotation.IntegrationComponentScan;
 @SpringBootApplication
 @EnableDiscoveryClient
 @IntegrationComponentScan
-@EnableBinding(Processor.class)
+@EnableBinding(WidgetProcessor.class)
 public class ServiceApplication {
 
     private static Log logger = LogFactory.getLog(ServiceApplication.class);

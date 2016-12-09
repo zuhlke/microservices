@@ -1,8 +1,10 @@
 package com.zuhlke.microservices.demo.edge;
 
+import java.util.stream.IntStream;
+
 public class Widget {
     public String name;
-    public String credits;
+    public int credits;
 
     public Widget() {};
     public String getName() {return name;}
